@@ -42,24 +42,24 @@
         }
         .countries-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
             gap: 20px;
-            padding: 0 20px; /* Add some padding for better presentation */
+            padding: 0 20px; 
         }
-
-        @media (min-width: 600px) {
+        @media only screen and (min-width: 600px) {
             .countries-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
-        @media (min-width: 900px) {
+        @media only screen and (min-width: 900px) {
             .countries-grid {
                 grid-template-columns: repeat(3, 1fr);
             }
         }
-        @media (min-width: 1200px) {
+        @media only screen and (min-width: 1200px) {
             .countries-grid {
-                grid-template-columns: repeat(4, 1fr);}}
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
     </style>
 </head>
 <body>
