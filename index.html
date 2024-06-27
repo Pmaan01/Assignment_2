@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flags of All the Countries</title>
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:bisque;
+            color: darkred;
+            font-family:cursive;
+        }
+        h1 {
+            text-align: center;
+            font-size: 4em;
+            margin-bottom: 40px;
+            font-family: cursive;
+            color: darkred;
+    
+        }
+
+        .country span {
+            font-size: 1em;
+        }
+        .country {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .country img {
+            width: 300px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        .country a {
+            text-decoration: none;
+            color: blue;
+
+        }
+        .countries-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 0 20px; /* Add some padding for better presentation */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flags of All the Countries</h1>
+    <div id="countries-container" class="countries-grid"></div>
+ 
+</body>
+</html>
